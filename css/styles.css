@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: lightgray;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 576px;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo1 {
+    padding-top: 30px;
+}
+
+.logo2 {
+    align-items: center;
+}
+
+.logo2 img {
+    width: 80%;
+    height: 80%;
+}
+
+.logo2 img {
+    max-height: 576px;
+}
+
+.logo3 img {
+    width: 60%;
+    height: 60%;
+
+}
